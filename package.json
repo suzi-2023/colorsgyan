@@ -1,0 +1,28 @@
+{
+  "name": "colorsgyan",
+  "version": "1.0.0",
+  "description": "A library to color your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzi-2023/colorsgyan.git"
+  },
+  "keywords": [
+    "Console log colors"
+  ],
+  "author": "Raj <raj457457@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suzi-2023/colorsgyan/issues"
+  },
+  "homepage": "https://github.com/suzi-2023/colorsgyan#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": ["lib/**/*"]
+}
